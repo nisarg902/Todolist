@@ -1,0 +1,20 @@
+  #product{
+        display: grid;
+        grid-template-columns: 3fr 7fr 2fr;
+     }
+     div{
+        font-family: Arial;
+     }
+     para{
+        margin-bottom: 2px;
+     }
+     ul{
+        font-size: small;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        
+     }
+     ul>li{
+        margin-bottom: 7px;
+        color: gray;
+     }
