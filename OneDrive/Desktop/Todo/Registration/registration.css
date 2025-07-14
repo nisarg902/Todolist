@@ -1,8 +1,13 @@
-body{
-    background-color: rgba(238,245,255,1);
-    width: 414px;
-    height: 896px;
-}
+
+
+
+
+
+
+
+
+
+
 .container{
 
 position: relative;
@@ -22,19 +27,80 @@ position: absolute;
     transform: translate(-89,-108);
     
 }
+
+body{
+    width: 414px;
+    height: 896px;
+     background-color: rgba(238,245,255,1);
+     border: 5px solid;
+}
+
+.Btn{
+ height: 61px;
+ width: 321px;
+color: black;
+background-color: blue;
+font-size: 21px;
+border: none;
+transform: translate(54,765);
+position: relative;
+margin-top: 10%;
+margin-left: 6%;
+text-decoration: none;
+}
+
+
 form{
     display: grid;
     grid-template-columns: 1;
-row-gap: 15px;
-text-align: start;
-text-emphasis-color: darkgrey;
-margin-top: 30%;
+     width: 348px;
+     gap: 15px;
+        margin-left: 22px;
+     margin-top: 80px;
+     
+   
+}
+
+.input1 , .input2 ,.input3 , .input4 {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    
+}
+
+a{
+    font-size: 12px;
+    margin-top: 14px;
+    color: aqua;
+    font-size: large;
+    
+}
+
+p{
+    margin-left: 35px;
+}
+font{
+    margin-left: 90px;
+    font-size: larger;
+}
+/* 
+
+
+form{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns:1;
+    row-gap: 15px;
+    text-align: start;
+    text-emphasis-color: darkgrey;
+     margin-top: 30%;
 
 }
-#input1{
-    width: 348px;
+#input1 , #input2 ,#input3 ,#input4 {
+
+
     
-    border-radius: 15px;
     margin-bottom: 10px;
     text-align:left;
     font-size: large;
@@ -43,32 +109,9 @@ margin-top: 30%;
 
 
 }
-#input2{
-width: 348px;
-height: 60.55px;
-border-radius: 15px;
-margin-bottom: 10px;
-text-align:left;
-font-size: large;
-border: none;
-}
-#input3{
-width: 348px;
-height:60.55px;
-border-radius: 15px;
-margin-bottom: 10px;
-text-align:left;
-font-size: large;
-border: none;
-}
-#input4{
-width: 348px;
-height: 60.66px;
-border-radius: 15px;
-text-align:left;
-font-size: large;
-border: none;
-}
+
+
+
 .Btn{
  height: 61px;
  width: 321px;
@@ -76,7 +119,7 @@ color: white;
 background-color: turquoise;
 font-size: 21px;
 border: none;
-transform: translate(54,765);
+
 position: relative;
 margin-left: 10px;
 margin-top:70px;
@@ -94,4 +137,4 @@ a{
     margin-top: 14px;
     color: aqua;
     font-size: large;
-}
+} */

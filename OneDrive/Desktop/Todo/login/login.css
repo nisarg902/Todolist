@@ -31,12 +31,8 @@ body{
     transform: translate(0,0);
      opacity: 100%;
    stroke: 000000;
-   
-
 
 }
-
-
 
 form{
     display: grid;
@@ -45,21 +41,19 @@ form{
      gap: 15px;
      margin-left:4%;
      margin-top: 80px;
-    
 
 }
-#input3{
+#input3 ,#input4{
    height: 61px;
      border-radius: 15px;
      text-align: left;
      font-size: large;
+     border: none;
+     width: 389px;
+      border-radius: 30px;
+      border: none;
+    
 
-}
-#input4{
-    height: 61px;
-     border-radius: 15px;
-     text-align: left;
-     font-size: large;
 }
 
 .Btn{
@@ -84,4 +78,15 @@ gap: 2px;
 }
 p{
     margin-left: 9%;
+}
+h2{
+    text-align: center; 
+    margin-top:50%;
+}
+.login{
+    margin-bottom: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
 }
