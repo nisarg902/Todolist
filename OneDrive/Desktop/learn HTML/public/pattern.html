@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        TEST:
+        <input type="text" name="text"  pattern="\d" placeholder="RGB">
+        <button> number only </button>
+    </form>
+    <form>
+        TEST:
+        <input type="text" name="text"  pattern="\d\D" placeholder="RGB">
+        <button> first number second other than number</button>
+    </form>
+    <form>
+        TEST:
+        <input type="text" name="text"  pattern="red|green|orange" placeholder="RGB">
+        <button> red green orange accpted only</button>
+    </form>
+</body>
+</html>
